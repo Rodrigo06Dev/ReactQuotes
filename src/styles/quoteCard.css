@@ -1,0 +1,35 @@
+.card{
+    max-width: 400px;
+    background-color: #F9F9F9;
+    border-radius: 1em 3em 1em 1em;
+    padding: 1em 2em;
+    box-shadow: -1px 12px 15px 1px #000000;
+
+    display: flex;
+    flex-direction: column;
+}
+.card__symbol{
+    font-size: 75px;
+}
+.card__quote{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card__author{
+    align-self: flex-end;
+    
+}
+
+.card__btn{
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: transparent;
+    font-size: 20px;
+    font-weight: 800;
+    align-self: flex-end;
+    color: #F9F9F9;
+    box-shadow: -1px 6px 15px 1px #000000;
+    cursor: pointer;
+}
